@@ -1,0 +1,153 @@
+*{
+    margin: auto;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(imagenes/diseño.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+
+H1{
+    padding-top: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+body p{
+    display: flex;
+    align-items: center;
+    margin: auto 30px;
+    flex-wrap: wrap;
+    text-align: justify;
+    color:#ffffff;
+    text-shadow: 1px 1px 5px rgb(13, 201, 185);
+    font-size:32px;
+    padding-top: 25px;
+    
+}
+
+.imagen{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 6px;
+    box-shadow: 10px 2px 10px rgba(8, 190, 78, 0.2);
+    margin: 3%;
+    max-width: 25%;
+    height: auto;
+    align-items: center;
+    
+    
+}
+
+.body-texto{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#contenedor {
+    
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+}
+
+.card2{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#im1{
+    margin: 3% 0;
+    width: 100%;
+    padding: 25px;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 10px 2px 10px rgba(8, 190, 78, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+    
+}
+
+#im2{
+    margin: 3% 0;
+    width: 100%;
+    padding: 25px;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 10px 2px 10px rgba(8, 190, 78, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+    
+}
+
+
+#im1 img{
+    width: 250px;
+    height: 200px;
+    
+}
+
+#im2 img{
+    width: 250px;
+    height: 200px;
+    
+}
+
+.titulo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgba(8, 190, 78, 0.2);
+    text-shadow: 3px 3px 5px black;
+}
+
+
+@media (max-width:900px) {
+    .body-texto p{
+        font-size:26px;
+        
+    }
+
+    
+}
+
+@media (max-width:500px) {
+    .body-texto p{
+        font-size:26px;
+        
+        
+    }
+    .imagen{
+        width: 70%;
+        height: 50%;
+    }
+
+    #im1 img{
+        width: 150px;
+        height: 100px;
+        
+    }
+    
+    #im2 img{
+        width: 150px;
+        height: 100px;
+        
+    }
+}
+
+
+
+
+
